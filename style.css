@@ -66,8 +66,20 @@ section{
 #thin-text{
   font-weight: 400;
 }
-.mail-button{
+.mail-add{
+  text-decoration: none;
   color: white;
-  background-image: linear-gradient(45deg, lightsalmon,yellow);
-  padding: 25px 35px;
+  font-weight: 600;
+}
+.mail-bg{
+  text-align: center;
+  background-image: linear-gradient(45deg, rgb(211, 8, 92), yellow);
+  border-radius: 5px;
+  margin-left:  35%;
+  margin-right: 35%;
+  padding: 20px;
+  
+}
+footer{
+  text-align: center;
 }

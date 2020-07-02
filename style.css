@@ -45,7 +45,7 @@ body{
 }
 section{
   height: 500px;
-  padding-bottom: 160px;
+  padding-bottom: 150px;
 }
 .column{
   width: 30%;
@@ -63,7 +63,7 @@ section{
 .text-aligning{
   text-align: center;
 }
-#thin-text{
+.thin-text{
   font-weight: 400;
 }
 .mail-add{
@@ -77,9 +77,37 @@ section{
   border-radius: 5px;
   margin-left:  35%;
   margin-right: 35%;
-  padding: 20px;
+  padding: 10px 20px;
   
 }
+.social{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50px;
+}
+.fa:hover{
+  opacity: .6;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #141414;
+  color: white;
+}
+
 footer{
   text-align: center;
 }

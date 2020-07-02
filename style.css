@@ -1,0 +1,73 @@
+
+body{
+  margin: 0%;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.light-font{
+  font-weight: 400;
+}
+.name-highlight{
+  color: #c21069;
+  font-size: 40px;
+}
+.hire-button{
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(45deg, #c21069, #e21b6e);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.cv-button{
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(45deg, #ac3608, #e2ad1b);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.half-width{
+  width: 40%;
+  float: left;
+  margin: 3%;
+  padding: 1%;
+}
+.half-width img{
+  width: 100%;
+}
+.top-banner{
+  background-image: url(images/background/header-bg.png);
+  background-repeat: no-repeat;
+}
+.mid-banner{
+  background-image: url(images/background/biography-bg.png);
+  background-repeat: no-repeat;
+}
+section{
+  height: 500px;
+  padding-bottom: 160px;
+}
+.column{
+  width: 30%;
+  float: left;
+  margin: 1%;
+  padding: .5%;
+}
+.column img{
+  width: 100%;
+}
+.work-banner{
+  background-image: url(images/background/latest-work-bg.png);
+  background-repeat: no-repeat;
+}
+.text-aligning{
+  text-align: center;
+}
+#thin-text{
+  font-weight: 400;
+}
+.mail-button{
+  color: white;
+  background-image: linear-gradient(45deg, lightsalmon,yellow);
+  padding: 25px 35px;
+}
